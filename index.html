@@ -92,11 +92,11 @@
                         <h1 id="reach">CONTACT ME</h1>
                         <div>
                             <label>Full Name</label> 
-                            <input name="name" placeholder="Your Name" type="text" minlength="4" required>
+                            <input name="name" placeholder="Your Name" type="text" minlength="4" pattern="[a-zA-Z]" title="Name should only contain lowercase and uppercase letters e.g John Doe" required>
                         </div>
                         <div>
                             <label>Email</label>
-                            <input type="email" placeholder="Your Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                            <input type="email" placeholder="Your Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email e.g johndoe@gmail.com" required>
                         </div>
                         <div>
                             <label>Tel.</label>

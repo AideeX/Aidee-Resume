@@ -123,6 +123,9 @@ progress::-webkit-progress-value{
 form.contact label{
     display: block;
 }
+.contact{
+    background-color: gray;
+}
 /*#small{
     width: 600px;
     height: 400px;

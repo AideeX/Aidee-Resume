@@ -1,7 +1,7 @@
 .mother{
     display: flex;
     border: 1px solid transparent;
-    width: 85%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
@@ -24,13 +24,14 @@
     align-content: flex-end;
 }
 .face img{
-    margin-left: 120px;
+    margin-left: 80px;
     margin-top: 30px;
 }
 .about{
     border: 1px solid transparent;
     width: 65%;
     min-height: 200px;
+    margin-right: 20px;
 }
 #about-me{
     font-family: cursive
@@ -55,7 +56,7 @@
     border: 1 px solid transparent;
     min-height: 200px;
     width: 75%;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 .deux{
     border-bottom: 3px solid purple;
@@ -74,7 +75,7 @@
     border: 1px solid transparent;
     min-height: 200px;
     width: 75%;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 .deux>ul{
     display: inline-block;
@@ -89,19 +90,21 @@
 }
 #skills{
     border: 1px solid transparent;
-    height: 250px;
+    height: 300px;
     width: 25%;
     margin-left: 50px;
 }
 #pro{
 border: 1px solid transparent;
-height: 250px;
+height: 300px;
 width: 37.5%;
+margin-right: 20px;
 }
 #personal{
     border: 1px solid transparent;
-    height: 250px;
+    height: 300px;
     width: 37.5%;
+    margin-right: 20px;
 }
 #pro>ul, #personal>ul{
     list-style-type: none;

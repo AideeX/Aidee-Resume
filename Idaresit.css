@@ -11,7 +11,7 @@
 }
 .beta{
     border-bottom: 5px solid purple;
-    min-height: 200px;
+    min-height: 220px;
     flex-direction: row;
     display: flex;
 }
@@ -20,21 +20,21 @@
     width: 35%;
     display: block;
     object-fit: fill;
-    height: 200px;
+    height: 220px;
     align-content: flex-end;
 }
 .face img{
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 30px;
 }
 .about{
     border: 1px solid transparent;
     width: 65%;
-    min-height: 200px;
+    height: 220px;
     margin-right: 20px;
 }
 #about-me{
-    font-family: cursive
+    font-family: Georgia;
 }
 #reach-me{
     line-height: 0.75cm;
@@ -111,10 +111,10 @@ margin-right: 20px;
     line-height: 0.8cm;
 }
 progress::-webkit-progress-bar{
-    background: whitesmoke;
+    background: beige;
 }
 progress{
-    background: whitesmoke;
+    background: beige;
     color: royalblue;
 }
 progress::-webkit-progress-value{

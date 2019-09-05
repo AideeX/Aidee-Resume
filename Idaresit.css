@@ -11,7 +11,7 @@
 }
 .beta{
     border-bottom: 5px solid purple;
-    min-height: 220px;
+    min-height: 250px;
     flex-direction: row;
     display: flex;
 }
@@ -20,7 +20,7 @@
     width: 35%;
     display: block;
     object-fit: fill;
-    height: 220px;
+    height: 200px;
     align-content: flex-end;
 }
 .face img{
@@ -30,7 +30,7 @@
 .about{
     border: 1px solid transparent;
     width: 65%;
-    height: 220px;
+    height: 250px;
     margin-right: 20px;
 }
 #about-me{
@@ -41,26 +41,26 @@
 }
 .uno{
     border-bottom: 3px solid purple;
-    min-height: 200px;
+    min-height: 160px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
 }
 .school{
     border: 1px solid transparent;
-    min-height: 200px;
+    min-height: 160px;
     width: 25%;
     margin-left: 50px;
 }
 #school{
     border: 1 px solid transparent;
-    min-height: 200px;
+    min-height: 160px;
     width: 75%;
     margin-left: 50px;
 }
 .deux{
     border-bottom: 3px solid purple;
-    min-height: 200px;
+    max-height: 450px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -73,7 +73,7 @@
 }
 #exp{
     border: 1px solid transparent;
-    min-height: 200px;
+    min-height: 450px;
     width: 75%;
     margin-left: 50px;
 }
@@ -83,26 +83,26 @@
 }
 .trois{
     border-bottom: 3px solid purple;
-    min-height: 200px;
+    max-height: 250px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
 }
 #skills{
     border: 1px solid transparent;
-    height: 300px;
+    height: 250px;
     width: 25%;
     margin-left: 50px;
 }
 #pro{
 border: 1px solid transparent;
-height: 300px;
+height: 250px;
 width: 37.5%;
 margin-right: 20px;
 }
 #personal{
     border: 1px solid transparent;
-    height: 300px;
+    height: 250px;
     width: 37.5%;
     margin-right: 20px;
 }
@@ -111,10 +111,10 @@ margin-right: 20px;
     line-height: 0.8cm;
 }
 progress::-webkit-progress-bar{
-    background: beige;
+    background: white;
 }
 progress{
-    background: beige;
+    background: white;
     color: royalblue;
 }
 progress::-webkit-progress-value{

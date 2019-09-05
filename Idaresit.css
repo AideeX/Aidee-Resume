@@ -6,7 +6,8 @@
     margin-right: auto;
     flex-wrap: wrap;
     flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gayathri', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: beige;
 }
 .beta{
@@ -20,12 +21,12 @@
     width: 35%;
     display: block;
     object-fit: fill;
-    height: 200px;
-    align-content: flex-end;
+    height: 180px;
 }
 .face img{
     margin-left: 60px;
     margin-top: 30px;
+    margin-right: 20px;
 }
 .about{
     border: 1px solid transparent;
@@ -34,7 +35,7 @@
     margin-right: 20px;
 }
 #about-me{
-    font-family: Georgia;
+    font-family: 'Chilanka', cursive;
 }
 #reach-me{
     line-height: 0.75cm;
